@@ -94,7 +94,7 @@ class Coffee:
                             p. pennies(0.01$)""")
         return self.getCoins(self.orderPrice)
 
-    # to check trannsaction
+    # to check transaction
     def ctrans(self, total, orderprice):
         if total > orderprice:
             print(f'Here is {round(total - orderprice, 2)} change\n')
